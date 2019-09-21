@@ -3,13 +3,15 @@ public class Main{
 
     public static void main(String[] args) {
         System.out.println("Aloha world");
-        int number = 0; //4b
-        float floatNumber = 5.6f; //8b
-        long longNumber = 34535341; //8b
-        boolean booleanFlag = false; //
-        byte byteNumber = 4;
-        double dobleNumber = 5.5;
-        //char
-        //short
+        byte t = 2; //1 b
+        short i = 11; //2 b
+        int s = 4444; //4 b
+        long tu = 8888888884234324L;// 8 b
+        float u = 4.6f;// 4 b
+        double p = 7777777775.4415435324513453414535241453; // 8 b
+        char id = 'i'; // 2 b
+        boolean d = false; // 1 - 4 b
+//char
+//short
     }
 }
