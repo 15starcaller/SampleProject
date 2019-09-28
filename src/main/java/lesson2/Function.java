@@ -1,7 +1,7 @@
 package lesson2;
 
 public class Function {
-    public static void main(String[] args) {
+     public static void main(String[] args){
         System.out.println("Input two numbers. The program will show the smallest one.");
         int min = minFromTwo(2,3);
         System.out.println("The smallest number is: " + min);
