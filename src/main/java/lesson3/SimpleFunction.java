@@ -26,6 +26,7 @@ m=scanner.nextInt();
 
         }
 
+
 }
 
 //метод ex1.equals(ex2) для сложных обьектов

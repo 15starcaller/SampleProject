@@ -3,7 +3,7 @@ package sMalenkoyBukvi;
 
 import java.util.Scanner;
 
-public class Justice {
+public class Justice15 {
     public static void main(String[] args ) {
         Scanner sc=new Scanner(System.in);
 

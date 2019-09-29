@@ -1,6 +1,6 @@
 package lesson2;
 
-public class Paw {
+public class Paw15 {
 
     public static boolean isPowerOfTwo(int value) {
         if(Math.sqrt(value)==2) { //wrong

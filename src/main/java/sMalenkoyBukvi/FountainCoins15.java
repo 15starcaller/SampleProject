@@ -1,6 +1,6 @@
 package sMalenkoyBukvi;
 
-public class FountainCoins {
+public class FountainCoins15 {
     public static void main(String[] args) {
 
         int newCoin=0;

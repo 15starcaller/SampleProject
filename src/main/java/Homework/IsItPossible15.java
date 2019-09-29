@@ -2,7 +2,7 @@
 //2 и 3 умножения дадут 8?
 import java.util.Scanner;
 
-public class Justice {
+public class Justice15 {
     public static void main(String[] args ) {
         Scanner sc=new Scanner(System.in);
 int n1=scnextInt();
