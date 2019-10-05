@@ -1,4 +1,4 @@
-package lesson5;
+package lesson5.oopBasic;
 
 public class Human {
     protected String name;

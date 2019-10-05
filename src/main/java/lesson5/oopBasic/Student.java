@@ -1,4 +1,4 @@
-package lesson5;
+package lesson5.oopBasic;
 
 public class Student extends Human implements Polite{
     private int form;//класс это только помещение
