@@ -1,4 +1,4 @@
-package sMalenkoyBukvi;
+package lesson1;
 
 public class FountainCoins15 {
     public static void main(String[] args) {
