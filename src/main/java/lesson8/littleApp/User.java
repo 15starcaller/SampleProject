@@ -40,5 +40,12 @@ public class User {
         return fullName;
     }
 
-
+    @Override
+    public String toString() {
+        return "User{" +
+                "login='" + login + '\'' +
+                ", password='" + password + '\'' +
+                ", fullName='" + fullName + '\'' +
+                '}';
+    }
 }
