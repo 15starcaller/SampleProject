@@ -8,11 +8,16 @@ import java.util.Map;
 public class UserService {//map идеален для бд, когда ключ маленький и value большой
     // логин добавить удалить просмотреть всех редактировать = 5 (crud) create read u delete
     private Map<String, User> users;
+    private final String PATH_TO_FILE="src\\main\\java\\lesson8\\littleApp\\user";//const=final
 
     public UserService() {
-        users = new HashMap<>();
-        User adminUser = new User("admin", "admin", "Tolya");
-        users.put("admin", adminUser);
+        users = FileHelper.readFromFile(PATH_TO_FILE);// new HashMap<>();
+        //User adminUser = new User("admin", "admin", "Tolya");
+        //users.put("admin", adminUser);
+    }
+
+    public void saveData() {
+        FileHelper.saveToFile(PATH_TO_FILE, users);
     }
 
     public User getByLogin(String login) {

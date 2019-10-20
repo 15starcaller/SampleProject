@@ -17,6 +17,9 @@ public class User {
         return login;
     }
 
+
+
+
     public String getPassword() {
         return password;
     }
